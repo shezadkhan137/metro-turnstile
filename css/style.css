@@ -1,0 +1,40 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+.clear{
+  clear:both;
+}
+
+.box{
+  background: blue;
+  height: 100px;
+  width: 100px;
+  float:left;
+  margin: 10px;
+  /*position: absolute;*/
+  /*-webkit-perspective: 600;*/
+/*  perspective: 600;*/
+/*  -webkit-transform: rotateY(45deg);*/
+  -webkit-transform-origin: -100px 100px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+#b2{
+  left:120px;
+}
+
+.container{
+  width:560px;
+  margin: 0 auto;
+  -webkit-perspective: 2000;
+  /*position: relative;*/
+}
